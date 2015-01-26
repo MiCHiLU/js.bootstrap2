@@ -10,19 +10,19 @@ def read(*rnames):
 long_description = (
     read('README.txt')
     + '\n' +
-    read('js', 'bootstrap', 'test_bootstrap.txt')
+    read('js', 'bootstrap2', 'test_bootstrap.txt')
     + '\n' +
     read('CHANGES.txt'))
 
 setup(
-    name='js.bootstrap',
+    name='js.bootstrap2',
     version=version,
     description="fanstatic twitter bootstrap.",
     long_description=long_description,
     classifiers=[],
     keywords='fanstatic twitter bootstrap redturtle',
     author='RedTurtle Developers',
-    url = 'https://github.com/RedTurtle/js.bootstrap',
+    url = 'https://github.com/MiCHiLU/js.bootstrap2',
     author_email='svilplone@redturtle.it',
     license='GPL',
     packages=find_packages(),
@@ -36,7 +36,7 @@ setup(
         ],
     entry_points={
         'fanstatic.libraries': [
-            'bootstrap = js.bootstrap:library',
+            'bootstrap = js.bootstrap2:library',
             ],
         },
     )

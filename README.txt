@@ -1,5 +1,5 @@
-js.bootstrap
-************
+js.bootstrap2
+*************
 
 Introduction
 ============
@@ -11,7 +11,7 @@ This library packages `twitter bootstrap`_ for `fanstatic`_. It is aware of diff
 
 This requires integration between your web framework and ``fanstatic``,
 and making sure that the original resources (shipped in the ``resources``
-directory in ``js.bootstrap``) are published to some URL.
+directory in ``js.bootstrap2``) are published to some URL.
 
 
 Contact

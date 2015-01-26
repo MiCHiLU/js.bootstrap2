@@ -7,10 +7,10 @@ information::
   >>> from fanstatic import init_needed
   >>> needed = init_needed(base_url='http://localhost')
 
-You can import bootstrap from ``js.bootstrap`` and ``.need`` it
+You can import bootstrap from ``js.bootstrap2`` and ``.need`` it
 where you want these resources to be included on a page::
 
-  >>> from js.bootstrap import bootstrap
+  >>> from js.bootstrap2 import bootstrap
   >>> bootstrap.need()
 
 Render the inclusion::
@@ -24,7 +24,7 @@ Render the inclusion::
 And if you want to use the new responsive design::
 
   >>> needed_responsive = init_needed(base_url='http://localhost')
-  >>> from js.bootstrap import bootstrap_responsive_css
+  >>> from js.bootstrap2 import bootstrap_responsive_css
   >>> bootstrap_responsive_css.need()
   >>> print Inclusion(needed_responsive).render()
   <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/css/bootstrap.css" />
